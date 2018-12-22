@@ -7,9 +7,9 @@ import (
 
 	gohttp "net/http"
 
+	"github.com/evertmulder/MailHog-Server/api"
 	"github.com/gorilla/pat"
 	"github.com/ian-kent/go-log/log"
-	"github.com/mailhog/MailHog-Server/api"
 	cfgapi "github.com/mailhog/MailHog-Server/config"
 	"github.com/mailhog/MailHog-Server/smtp"
 	"github.com/mailhog/MailHog-UI/assets"
